@@ -1,4 +1,5 @@
-#
+#Write a program to check whether a number is negative, positive or zero.
+
 a = 34
 
 if(a==0):

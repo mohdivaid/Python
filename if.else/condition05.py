@@ -1,4 +1,5 @@
 # Write a program to input week number and print week day.
+
 x = 5 #(Week day)
 if(x==1):
     print("Monday")
