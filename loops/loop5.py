@@ -1,6 +1,6 @@
 #Write a program to print multiplication table of any number.   
-num = 8
+x = 7
 for i in range(11):
     if(i<11):
-        total=num*i
+        total=x*i
         print(total)
