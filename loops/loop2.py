@@ -1,3 +1,4 @@
+#Write a program to find the sum of first n natural numbers.
 n = 9
 sum = 0
 

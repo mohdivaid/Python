@@ -1,3 +1,4 @@
+#Write a program to print multiplication table of any number.   
 num = 8
 for i in range(11):
     if(i<11):
