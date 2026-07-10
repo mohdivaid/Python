@@ -14,4 +14,4 @@ if x>=1:
     else:
         print("x is not a prime number")
 else:
-    print("number is negative or zero")
+    print("number is negative or zero no.")

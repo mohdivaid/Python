@@ -3,6 +3,7 @@
 A = "56789"
 
 firstletter = int(A[0]) 
+
 lastletter = int(A[-1])
 
 sum = firstletter + lastletter

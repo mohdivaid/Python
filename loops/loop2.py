@@ -1,6 +1,6 @@
 # Write a program to find the sum of first n natural numbers.
 
-n = 10
+n = 11
 sum = 0
 
 for i in range(1, n + 1):
