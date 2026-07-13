@@ -1,0 +1,1 @@
+#Write a program to put even and odd elements of array in two separate array.

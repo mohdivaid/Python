@@ -9,4 +9,5 @@ for element in A:
 print("Frequency of each element:")
 
 for element, count in frequency.items():
-    print(element, "frequency of elements:", count)
+    
+    print("frequency of ", element, "is", count)
