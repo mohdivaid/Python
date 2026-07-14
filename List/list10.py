@@ -1,11 +1,12 @@
 #Write a program to count total number of duplicate elements in an array.
 A = [1, 2, 3, 4, 1, 5, 4, 1]
 
-B = 0
+b = []            
 
-for element in A:
-    
-    if A.count(element) > 1:
-        B += 1
+for i in range (len(a)):
+    for j in range(i + 1, len(a)):  
+        if a[i] == a[j] and a[i] not in b:       
+                
+                b.append(a[i])
 
-print("Total number of duplicate elements:", B)
+print("Duplicate elements:", b)
