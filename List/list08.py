@@ -1,13 +1,20 @@
 #Write a program to count frequency of each element in an array.
-A = [1, 2, 3, 2, 4, 1, 5, 4, 1]
+a = [1, 2, 3, 4, 1, 5, 4, 1]
 
-frequency = {}
-
-for element in A:
-    frequency[element] = frequency.get(element, 0) + 1
-
-print("Frequency of each element:")
-
-for element, count in frequency.items():
+for i in range(len(a)):
+    count = 1
+    already_counted = False
     
-    print("frequency of ", element, "is", count)
+    for j in range(i):
+        if a[i] == a[j]:
+            already_counted = True
+            break
+        
+    if already_counted:
+        continue
+    
+    for j in range(i + 1, len(a)):
+        if a[i] == a[j]:
+            count += 1
+
+    print("Frequency of", a[i], "is:", count)
