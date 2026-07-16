@@ -1,4 +1,5 @@
 #floydus triangle
+
 rows = 5
 num = 1
 for i in range(1, rows + 1):
