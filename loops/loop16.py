@@ -1,4 +1,5 @@
 #Write a program to check whether a number is armStrong number or not
+
 a = 153
 sum = 0
 temp = a
