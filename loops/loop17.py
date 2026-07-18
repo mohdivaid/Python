@@ -2,7 +2,7 @@
     
 a = 153
 
-for i in range(1, a + 1):
+for i in range(2, a + 1):
     sum = 0
     temp = i
     while temp > 0:
@@ -11,7 +11,3 @@ for i in range(1, a + 1):
         temp //= 10
     if i==sum:
         print(i)
-
-
- 
-
