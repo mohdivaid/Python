@@ -1,13 +1,17 @@
-marks = {
-    "Math": 90,
-    "English": 85,
-    "Science": 95
+subject={
+    "science":55,
+    "maths":62,
+    "hindi":82
 }
-sum_marks = sum(marks.values())
-print("Total Marks:", sum_marks)
+count =0
 
-total_subjects = len(marks)
-print("Total Subjects:", total_subjects)
+total_sum=0
+for i in subject:
+    count +=1
+    total_sum+=subject[i]
 
-average_marks = sum_marks / total_subjects
-print("Average Marks:", average_marks)
+print(list(subject.keys()))
+print(list(subject.values()))  
+print("subject count: ",count)
+print("total marks sum: ",total_sum)
+print("average marks: ", total_sum/count)
