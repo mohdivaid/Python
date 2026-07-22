@@ -4,4 +4,4 @@ student = {
     "city": "indore"
 }
 for key, value in student.items():
-    print(key, ":", value)
+    print(key,value)
