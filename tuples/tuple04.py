@@ -1,0 +1,5 @@
+marks = (45,67,89,32,56,89,90)
+print("highest marks", max(marks))
+print("lowest marks", min(marks))
+print("total marks", sum(marks))
+print("Average marks", sum(marks)/len(marks))
